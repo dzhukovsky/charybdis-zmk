@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis, layout_name: five_column_transform}
 layers:
   Base:
   - Q
@@ -30,83 +31,11 @@ layers:
   - ','
   - .
   - /
-  - {t: '''', h: Symbols}
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: '$$mdi:keyboard-tab$$', h: Numbers}
-  - {t: '$$mdi:keyboard-return$$', h: Numbers}
-  - {t: '$$mdi:backspace$$', h: Symbols}
-  Navigation:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:volume-off$$
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PAGE DOWN
-  - PAGE UP
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - STOP
-  - PLAY PAUSE
-  Symbols:
-  - ^
-  - '&'
-  - '*'
-  - '~'
-  - +
-  - +
-  - '&'
-  - '*'
-  - '`'
-  - ^
-  - '|'
-  - $
-  - '%'
-  - '='
-  - '-'
-  - '-'
-  - $
-  - '%'
-  - '='
+  - {t: ESCAPE, h: Navigation}
+  - {t: '$$mdi:keyboard-space$$', h: Symbols}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - \
-  - '!'
-  - '@'
-  - '#'
-  - _
-  - _
-  - '!'
-  - '@'
-  - '#'
-  - \
-  - {t: '`', type: held}
-  - '~'
-  - {t: ▽, type: trans}
-  - '~'
-  - {t: '`', type: held alternate}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', h: Numbers}
   Numbers:
   - {t: ▽, type: trans}
   - '7'
@@ -140,8 +69,116 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held alternate}
+  Symbols:
+  - ^
+  - '&'
+  - '*'
+  - '~'
+  - +
+  - +
+  - '&'
+  - '*'
+  - '`'
+  - ^
+  - '|'
+  - $
+  - '%'
+  - '='
+  - '-'
+  - '-'
+  - $
+  - '%'
+  - '='
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - \
+  - '!'
+  - '@'
+  - '#'
+  - _
+  - _
+  - '!'
+  - '@'
+  - '#'
+  - \
+  - '`'
+  - {t: '~', type: held}
+  - {t: ▽, type: trans}
+  - '~'
+  - '`'
+  Navigation:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:volume-off$$
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:skip-next$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - STOP
+  - PLAY PAUSE
+  Mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [22, 23]

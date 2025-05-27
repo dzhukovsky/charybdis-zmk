@@ -175,11 +175,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held alternate}
-  - '&mkp MB2'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB3'
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [22, 23]
   k: ESCAPE

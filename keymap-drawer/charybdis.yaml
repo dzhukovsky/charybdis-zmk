@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis, layout_name: five_column_transform}
 layers:
   Base:
   - Q
@@ -30,12 +31,12 @@ layers:
   - ','
   - .
   - {t: /, h: Pointer}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: NuFu, h: sticky}
+  - A
+  - G
+  - C
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Symbol, h: sticky}
-  NuFu:
+  Numeral/Function:
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -68,7 +69,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   Symbol:
@@ -139,7 +140,7 @@ layers:
   - END
   - INS
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - PLAY PAUSE
   - STOP
   - STOP

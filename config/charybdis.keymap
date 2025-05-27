@@ -4,20 +4,25 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /* Base */
-
 #define b 0
 
 /* Navigation */
-
 #define n 1
 
 /* Symbols */
-
 #define s 2
 
 /* Numbers */
-
 #define u 3
+
+/* Mouse */
+#define m 4
+
+/* Snipe */
+#define snp 5
+
+/* Drag Scroll */
+#define drg 6
 
 &sl { release-after-ms = <250>; };
 
@@ -30,7 +35,7 @@
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <b u>;
+        layers = <b m>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -41,7 +46,7 @@
     trackball_snipe_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <s>;
+        layers = <snp>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -52,7 +57,7 @@
     trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <n>;
+        layers = <drg>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;

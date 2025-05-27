@@ -1,26 +1,34 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 /* Base */
+
 #define b 0
 
 /* Navigation */
+
 #define n 1
 
 /* Symbols */
+
 #define s 2
 
 /* Numbers */
+
 #define u 3
 
 /* Mouse */
+
 #define m 4
 
 /* Snipe */
+
 #define snp 5
 
 /* Drag Scroll */
+
 #define drg 6
 
 &sl { release-after-ms = <250>; };
@@ -181,8 +189,26 @@
             bindings = <
   &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans
   &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans
-  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans  &trans
+  &trans  &mo 5   &mo 6      &trans     &trans       &trans     &trans     &trans  &trans  &trans
                   &mkp RCLK  &mkp LCLK  &mkp MCLK    &mkp MCLK  &mkp LCLK
+            >;
+        };
+
+        Snipe {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        DragScroll {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans
             >;
         };
     };

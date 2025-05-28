@@ -320,12 +320,8 @@ path.combo {
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="357" y="-29" height="14" width="14.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -482,12 +478,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -634,12 +626,8 @@ path.combo {
 <text x="0" y="0" class="key tap">=</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -790,12 +778,8 @@ path.combo {
 <text x="0" y="0" class="key tap">NEXT</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -953,12 +937,8 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -1103,12 +1083,8 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -1253,12 +1229,8 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="18" width="28" height="26" class="combo"/>
-<text x="112" y="32" class="combo tap">LANG1</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap">LANG2</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="80" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>

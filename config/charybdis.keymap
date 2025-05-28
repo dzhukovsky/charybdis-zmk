@@ -46,7 +46,7 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
-        scale-divisor = <4>;
+        scale-divisor = <6>;
     };
 
     trackball_snipe_listener {
@@ -67,7 +67,7 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
-        y-invert;
+        /* y-invert; */
         scale-divisor = <6>;
         bindings = <&ib_wheel_scaler 1 8>;
     };

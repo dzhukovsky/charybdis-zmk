@@ -261,3 +261,7 @@ combos:
   l: [Base]
   a: top
   o: 0.5
+- p: [1, 2]
+  k: LANG1
+- p: [2, 3]
+  k: LANG2
